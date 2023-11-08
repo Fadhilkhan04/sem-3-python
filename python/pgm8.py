@@ -31,5 +31,3 @@ except FileNotFoundError:
   print("file not found")
 except Exception as e :
   print("an error has occured :",str(e))
-
-

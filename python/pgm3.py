@@ -7,3 +7,4 @@ for i in range (0,n):
 
 print("the list is:",l)
 print("the max number in list is:",max(l))
+print("the min number in list is:",min(l))
