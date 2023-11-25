@@ -1,0 +1,8 @@
+def contains_only_357(number):
+
+    allowed_digits={'3','5','7'}
+    return all(digit in allowed_digits for digit in number)
+
+n  = input("enter:")
+output = contains_only_357(n)
+print(output)
